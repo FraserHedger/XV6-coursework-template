@@ -150,6 +150,8 @@ UPROGS=\
 	$U/_run_command\
 	$U/_sleep\
 	$U/_callGetYear\
+	$U/_pingpong0\
+	$U/_pingpong1\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
